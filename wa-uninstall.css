@@ -1,0 +1,164 @@
+body {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+#wa-uninstaller {
+    width: 600px;
+    height: 473px;
+    border: 1px solid #BAC6EA;
+}
+
+#wa-uninstaller-header {
+    height: 48px;
+    display: table;
+    width: 100%;
+    background-color: #F5F6FA;
+    border-bottom: 1px solid #BBC7E7;
+}
+
+    #wa-uninstaller-header > div {
+        display: table-cell;
+    }
+
+    #wa-uninstaller-header .title {
+        vertical-align: middle;
+    }
+
+#wa-uninstaller-header-close {
+    float: right;
+    position: relative;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+}
+
+
+#wa-uninstaller-content {
+    margin: 24px 30px 0px 30px;
+    color: #404040;
+    font-size: 12px;
+    height: 67%;
+}
+
+#wa-uninstaller-start h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #53565A;
+    margin-bottom: 5px;
+}
+#wa-uninstaller-start h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #53565A;
+    margin: 0px;
+}
+
+#wa-uninstaller-start div > ul {
+    height: 165px;
+    color: #0BD175;
+    padding: 0px 12px 10px 18px;
+    list-style-type: circle;
+}
+
+    #wa-uninstaller-start div > ul li {
+        font-size: 25px;
+        line-height: 22px;
+        height: 22px;
+        padding-bottom: 6px;
+    }
+
+        #wa-uninstaller-start div > ul li span {
+            font-size: 11px;
+            color: #53565A;
+            display: inline-block;
+            position: relative;
+            bottom: 4px;
+        }
+
+#wa-uninstaller-start > p {
+    width: 550px;
+    line-height: 15px;
+    font-size: 11px;
+    border-radius: 2px;
+    height: 64px;
+    display: table-cell;
+    vertical-align: middle;
+    background-image: url('wacore:mfw\\packages\\builtin\\mcafee_pc_install_icon2.png');
+    background-repeat: no-repeat;
+    background-position: 13px 15px;
+    background-size: 45px;
+    padding: 3px 16px 3px 70px;
+    background-color: #EFF5F9;
+    color: #53565A;
+}
+
+#wa-uninstaller-free {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+#wa-uninstaller-spinner img {
+    display: block;
+    margin: auto;
+    margin-top: 132px;
+    height: 70px;
+    width: 70px;
+}
+    
+#wa-uninstaller-progress {
+    color: #53565A;
+    text-align: center;
+}
+
+    #wa-uninstaller-progress img {
+        display: block;
+        margin: auto;
+        margin-top: 32px;
+        height: 70px;
+        width: 70px;
+    }
+
+    #wa-uninstaller-progress .sorry {
+        font-size: 16px;
+        margin: 86px 0 12px 0;
+    }
+
+    #wa-uninstaller-progress .uninstalling {
+        font-size: 10px;
+    }
+
+#wa-uninstaller-success {
+    padding-top: 46px;
+    color: #53565A;
+    text-align: center;
+    font-size: 16px;
+}
+
+    #wa-uninstaller-success .survey {
+        font-size: 11px;
+        line-height: 15px;
+        text-align: left;
+        color: #53565A;
+    }
+
+    #wa-uninstaller-success .done img {
+        display: block;
+        margin: auto;
+        padding: 60px 0 86px 0;
+    }
+
+#wa-uninstaller-footer {
+    margin: 32px 28px 0px 28px;
+}
+
+.wa-button {
+    min-width: 190px;
+    font-size: 13px;
+}
+
+    .wa-button + .wa-button {
+        float: right;
+    }
+
+//11CBC75FC4B20567D7E870908191820BE29A763D20BB244BB2E025E620187A921FA874191CE88FC0B82E65DB404A68B77E63E4873DC441C8A1EF8DD87B149EDE++

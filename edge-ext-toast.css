@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  outline: none;
+}
+
+body {
+  color: #212934;
+  line-height: 24px;
+}
+
+#dialog {
+  display: flex;
+  width: 761px;
+  height: 565px;
+  background: #fff;
+  border-radius: 24px;
+  border:1px solid rgb(0, 0, 0, 0.12);
+}
+#card_layer {
+  background: transparent url('file:///[WA_FILES]/mfw\\packages\\builtin\\women-on-laptop-features.png') no-repeat 0% 100%;
+  width: 276px;
+  border-radius:24px 0 0 24px;
+}
+ 
+#progress {
+  width: 173px;
+  height: 173px;
+  margin: 52px;
+  background-image: url('file:///[WA_FILES]/mfw\\packages\\builtin\\progress_0.png');
+}
+
+#progress.enabled{
+  background-image: url('file:///[WA_FILES]/mfw\\packages\\builtin\\progress_1.png');
+}
+
+#description_layer {
+  padding: 35px;
+}
+#logo {
+  background-image: url('file:///[WA_FILES]/mfw\\packages\\builtin\\mcafee-logo-1.png');
+  margin: 0 0 13px;
+  width: 85px;
+  height: 18px;
+
+}
+
+h1#title {
+  color: #212934;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: Open Sans;
+  margin-bottom: 21px;
+}
+
+#content p.desc {
+  color: #212934;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  margin-bottom: 42px;
+}
+
+#feature_name {
+  color: #212934;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  margin-left: 65px;
+  float: left;
+}
+
+#feature_type {
+  float: right;
+  padding: 10px 17px;
+  background: #D6FFF0;
+  border-radius: 16px;
+  text-align: center;
+}
+
+#feature_type span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  display: block;
+  align-items: center;
+  color: #0A7155;
+}
+
+#feature_desc {
+  color: #212934;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: 'Open Sans';
+  margin-top: 20px;
+  float: left;
+}
+
+#toggle_btn > input[type="checkbox"] {
+  width: 0px;
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+  border: 0 none;
+  cursor:pointer;
+}
+
+#toggle_btn > input[type="checkbox"]:before {
+  width: 49px;
+  height: 30px;
+  display: block;
+  overflow: hidden;
+  content: url('file:///[WA_FILES]/mfw\\packages\\builtin\\toggle_off.png');
+}
+ 
+#toggle_btn > input[type="checkbox"]:checked::before {
+  content: url('file:///[WA_FILES]/mfw\\packages\\builtin\\toggle_on.png');
+}
+
+#done_btn {
+  position: absolute;
+  bottom: 33px;
+  right: 35px;
+  padding: 10px 36px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #000;
+  border-radius: 24px;
+  cursor:pointer;
+}
+//E8EF6DACB464C9583B243753A8F93FCD421EA3AB902143F7E3880BB66B62D40E96701B264C6CC1F98631EDA6C4B424450EF2D6C384088E92E0FEABCDEAEF95EF++

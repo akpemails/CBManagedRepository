@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  outline: none;
+}
+
+html {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left:0 !important;
+}
+
+body {
+  color: #212934;
+  line-height: 24px;
+  width: 485px;
+  height: 250px;
+}
+
+.balloon-arrow {
+  margin-bottom: -6px;
+  background: url('file:///[WA_FILES]/mfw\\packages\\builtin\\balloon-arrow.png') no-repeat 57% 0%;
+  height:54px;
+  width: 585px;
+}
+
+#toast {
+  display: flex;
+  border-radius: 24px;
+  background: white;
+  box-sizing: border-box;
+  border: 1px solid #ABB2C3;
+}
+#card_layer {
+  background-image: url('file:///[WA_FILES]/mfw\\packages\\builtin\\card_bg_image.png');
+  width: 150px;
+  height: 198px;
+  border-radius: 24px 0 0 24px;
+  float: left;
+}
+
+#card_layer > .tooltip-a {
+  margin: 36px 18px 0 10px;
+  width: 123px;
+  height: 127px;
+  background-image: url('file:///[WA_FILES]/mfw\\packages\\builtin\\allow.png');
+}
+
+#card_layer > .tooltip-b {
+  margin: 46px 18px 0;
+  width: 113px;
+  height: 113px;
+  background-image: url('file:///[WA_FILES]/mfw\\packages\\builtin\\women-on-laptop.png');
+}
+
+#card_layer > div.hidden {
+  display: none;
+}
+
+#description_layer {
+  padding:29px 24px;
+  height: 198px;
+}
+#logo {
+  background-image: url('file:///[WA_FILES]/mfw\\packages\\builtin\\mcafee-wa-logo.png');
+  width: 154px;
+  height: 16px;
+  margin-bottom: 16px;
+  float: left;
+}
+#close_btn {
+  float: right;
+  display: block;
+  background-image: url("file:///[WA_FILES]/mfw\\packages\\builtin\\close.png");
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+#content_desc {
+  float: left;
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+//BE4A8AF45E9B5CEFAC03EBB30B8AC92B6AF1D3EC3B24125271D4BA513C509C40F031EDF8421386539484EF331C97C4FA7911F6DAC34FBC087C2EE31A3E56A7C9++
